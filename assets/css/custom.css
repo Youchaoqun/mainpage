@@ -272,6 +272,52 @@ a:hover {
   font-weight: 700;
 }
 
+/* Markdown normalizes ordered lists to ascending numbers. Recreate the
+   intended reverse numbering for journal and conference publications. */
+#publications .prose > ol:nth-of-type(2),
+#publications .prose > ol:nth-of-type(3) {
+  list-style: none;
+}
+
+#publications .prose > ol:nth-of-type(2) {
+  counter-reset: journal-publication 23;
+}
+
+#publications .prose > ol:nth-of-type(3) {
+  counter-reset: conference-publication 16;
+}
+
+#publications .prose > ol:nth-of-type(2) > li,
+#publications .prose > ol:nth-of-type(3) > li {
+  position: relative;
+}
+
+#publications .prose > ol:nth-of-type(2) > li {
+  counter-increment: journal-publication -1;
+}
+
+#publications .prose > ol:nth-of-type(3) > li {
+  counter-increment: conference-publication -1;
+}
+
+#publications .prose > ol:nth-of-type(2) > li::before,
+#publications .prose > ol:nth-of-type(3) > li::before {
+  position: absolute;
+  right: calc(100% + 0.45rem);
+  width: 2.25rem;
+  color: var(--ap-muted);
+  font-weight: 700;
+  text-align: right;
+}
+
+#publications .prose > ol:nth-of-type(2) > li::before {
+  content: counter(journal-publication) ".";
+}
+
+#publications .prose > ol:nth-of-type(3) > li::before {
+  content: counter(conference-publication) ".";
+}
+
 #publications .prose > ol > li > strong:first-child {
   color: #333;
   font-weight: 700;
