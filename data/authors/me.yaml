@@ -1,0 +1,66 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Chaoqun You
+  given: Chaoqun
+  family: You
+  alternate: '有超群'
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
+status:
+  icon: ''
+role: Assistant Professor
+bio: |
+  I am an Assistant Professor at Fudan University. My research interests lie at the intersection of artificial intelligence and networking, including networking for large language models, LLMs for networking, LLM multi-agent systems, edge intelligence, NFV/SDN, O-RAN, and non-terrestrial networks.
+
+affiliations:
+  - name: Fudan University
+    url: https://www.fudan.edu.cn/
+
+links:
+  - icon: at-symbol
+    url: mailto:chaoqunyou@gmail.com
+    label: Email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=o9p9pK8AAAAJ&hl=en
+    label: Google Scholar
+  - icon: academicons/dblp
+    url: https://dblp.org/pid/233/5127.html
+    label: DBLP
+  - icon: brands/github
+    url: https://github.com/Youchaoqun
+    label: GitHub
+
+interests:
+  - Networking for LLMs
+  - LLMs for Networking
+  - LLM Multi-Agent Systems
+  - Edge Intelligence
+  - NFV/SDN
+  - O-RAN and Non-Terrestrial Networks
+
+education:
+  - degree: PhD Communication and Computer Science
+    institution: University of Electronic Science and Technology of China (UESTC)
+  - degree: Visiting PhD Student
+    institution: University of Toronto
+  - degree: BS Communication Engineering
+    institution: University of Electronic Science and Technology of China (UESTC)
+
+experience:
+  - role: Assistant Professor
+    org: Fudan University
+    summary: Research at the intersection of artificial intelligence and networking.
+  - role: Research Fellow
+    org: Singapore University of Technology and Design (SUTD)
+    summary: Worked with Prof. Tony Q. S. Quek.
+
+awards:
+  - title: Best Paper Award
+    awarder: IEEE iWRF&AT
+    date: '2024-01-01'
+  - title: Best Paper Award
+    awarder: IEEE/CIC ICCC
+    date: '2024-01-01'

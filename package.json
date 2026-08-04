@@ -1,0 +1,21 @@
+{
+  "name": "chaoqun-you-academic-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "description": "The source of Chaoqun You's academic homepage",
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --minify --cleanDestinationDir && pagefind --site public",
+    "pagefind": "pagefind --site public"
+  },
+  "dependencies": {
+    "pagefind": "^1.4.0",
+    "preact": "^10.27.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "tailwindcss": "^4.3.3"
+  }
+}

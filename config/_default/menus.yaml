@@ -1,0 +1,16 @@
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: News
+    url: /#news
+    weight: 20
+  - name: Publications
+    url: /#publications
+    weight: 30
+  - name: Services
+    url: /#service
+    weight: 40
+  - name: Awards
+    url: /#award
+    weight: 50

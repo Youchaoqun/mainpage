@@ -1,0 +1,474 @@
+/* Academic Pages-inspired presentation for Hugo Blox. */
+:root {
+  --ap-link: #52adc8;
+  --ap-text: #2f3437;
+  --ap-muted: #555d63;
+  --ap-border: #f2f3f3;
+  --ap-max: 1280px;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff !important;
+  color: var(--ap-text) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif !important;
+  line-height: 1.65;
+}
+
+a {
+  color: var(--ap-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2f7f96;
+  text-decoration: underline;
+}
+
+.page-header {
+  position: static !important;
+  background: #fff;
+  border-bottom: 1px solid var(--ap-border);
+  box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+}
+
+#site-header,
+#site-header .navbar {
+  background: #fff !important;
+}
+
+#site-header .navbar {
+  min-height: 70px;
+  max-width: var(--ap-max);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+#site-header .navbar-brand {
+  color: #494e52 !important;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+#site-header .navbar-nav {
+  margin-left: auto;
+  gap: 0.15rem;
+}
+
+#site-header .nav-link {
+  position: relative;
+  padding: 1.55rem 0.65rem 1.35rem;
+  color: #494e52 !important;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+#site-header .nav-link::after {
+  position: absolute;
+  right: 0.65rem;
+  bottom: 1.15rem;
+  left: 0.65rem;
+  height: 1px;
+  content: "";
+  background: #494e52;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 180ms ease;
+}
+
+#site-header .nav-link:hover {
+  text-decoration: none;
+}
+
+#site-header .nav-link:hover::after,
+#site-header .nav-link.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* The homepage becomes the classic Academic Pages two-column layout. */
+.page-body:has(#section-resume-biography) {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 820px);
+  column-gap: clamp(2.5rem, 6vw, 5rem);
+  align-items: start;
+  width: min(calc(100% - 4rem), 1120px);
+  margin: 0 auto;
+  padding: 3rem 0 5rem;
+}
+
+.page-body:has(#section-resume-biography) > section {
+  grid-column: 2;
+  min-width: 0;
+  padding: 0 0 2.65rem !important;
+}
+
+.page-body:has(#section-resume-biography) > #section-resume-biography {
+  position: sticky;
+  top: 2rem;
+  grid-column: 1;
+  grid-row: 1 / span 20;
+  padding: 0 !important;
+}
+
+#section-resume-biography .resume-biography {
+  align-items: flex-start !important;
+  text-align: left;
+}
+
+#section-resume-biography .avatar-wrapper {
+  width: 175px !important;
+  height: 175px !important;
+  margin: 0 0 1.2rem !important;
+}
+
+#section-resume-biography .avatar {
+  width: 175px !important;
+  height: 175px !important;
+  padding: 0 !important;
+  border: 0;
+}
+
+#section-resume-biography .text-3xl {
+  margin: 0 0 0.35rem !important;
+  color: #494e52;
+  font-size: 1.35rem !important;
+  line-height: 1.25;
+}
+
+#section-resume-biography h3 {
+  margin: 0 0 0.2rem;
+  color: var(--ap-muted);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+#section-resume-biography .mb-2 {
+  margin-bottom: 0.5rem;
+  color: var(--ap-muted);
+  font-size: 0.9rem;
+}
+
+#section-resume-biography .network-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+#section-resume-biography .network-icon li,
+#section-resume-biography .network-icon a {
+  width: 100%;
+}
+
+#section-resume-biography .network-icon a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--ap-text);
+  font-size: 0.88rem;
+}
+
+#section-resume-biography .network-icon a::after {
+  content: attr(aria-label);
+}
+
+#section-resume-biography .network-icon svg {
+  width: 1rem;
+  height: 1rem !important;
+  color: var(--ap-muted);
+}
+
+#section-resume-biography .bio-text {
+  color: var(--ap-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+#section-resume-biography > a.mt-4 {
+  border: 1px solid #d9dcde;
+  border-radius: 3px !important;
+  color: var(--ap-text);
+  box-shadow: none;
+}
+
+.page-body:has(#section-resume-biography) section > div:not(.home-section-bg) {
+  max-width: none !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.page-body:has(#section-resume-biography) section > .flex.flex-col.items-center {
+  align-items: flex-start !important;
+  text-align: left;
+}
+
+.page-body:has(#section-resume-biography) section [class*="max-w-"] {
+  max-width: none !important;
+}
+
+.page-body:has(#section-resume-biography) section .text-3xl,
+.page-body:has(#section-resume-biography) section h2 {
+  margin: 0 0 1rem;
+  color: #333;
+  font-size: 1.75rem !important;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.page-body:has(#section-resume-biography) section h3 {
+  color: #333;
+}
+
+.page-body:has(#section-resume-biography) .prose {
+  max-width: 100% !important;
+  color: var(--ap-text);
+  font-size: 1rem !important;
+  line-height: 1.7;
+}
+
+.page-body:has(#section-resume-biography) .prose p {
+  margin: 0 0 1.15rem;
+}
+
+/* Publications use the compact three-line format of the legacy homepage. */
+#publications .prose > h3 {
+  margin: 2.75rem 0 1.25rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--ap-border);
+  color: #333;
+  font-size: 1.25rem !important;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+#publications .prose > h3:first-child {
+  margin-top: 0.25rem;
+}
+
+#publications .prose > ol {
+  margin: 0;
+  padding-left: 1.8rem;
+}
+
+#publications .prose > ol > li {
+  margin: 0 0 1.35rem;
+  padding-left: 0.3rem;
+  line-height: 1.55;
+}
+
+#publications .prose > ol > li::marker {
+  color: var(--ap-muted);
+  font-weight: 700;
+}
+
+#publications .prose > ol > li > strong:first-child {
+  color: #333;
+  font-weight: 700;
+}
+
+#publications .prose > p {
+  color: var(--ap-muted);
+  font-size: 0.9rem;
+}
+
+#publications .publication-award {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  color: #b7791f;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.page-body:has(#section-resume-biography) article,
+.page-body:has(#section-resume-biography) .citation {
+  border: 0 !important;
+  border-bottom: 1px solid var(--ap-border) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.page-body:has(#section-resume-biography) article:last-child,
+.page-body:has(#section-resume-biography) .citation:last-child {
+  border-bottom: 0 !important;
+}
+
+.page-body:has(#section-resume-biography) img:not(.avatar) {
+  border-radius: 0 !important;
+}
+
+.page-body:not(:has(#section-resume-biography)) {
+  width: min(calc(100% - 4rem), 1120px);
+  margin: 0 auto;
+}
+
+.page-body h1,
+.page-body h2,
+.page-body h3 {
+  color: #333;
+  letter-spacing: -0.015em;
+}
+
+.page-footer {
+  border-top: 1px solid var(--ap-border);
+  background: #fff !important;
+  color: var(--ap-muted);
+  font-size: 0.8rem;
+}
+
+/* Full dark-mode treatment for the Academic Pages-inspired overrides. */
+.dark {
+  --ap-link: #7cc7dd;
+  --ap-text: #d4d4d8;
+  --ap-muted: #a1a1aa;
+  --ap-border: #293241;
+}
+
+.dark body,
+.dark #page-bg {
+  background: #111827 !important;
+  color: var(--ap-text) !important;
+}
+
+.dark .page-header,
+.dark #site-header,
+.dark #site-header .navbar {
+  background: #111827 !important;
+  border-color: var(--ap-border);
+  box-shadow: 0 1px 1px rgb(0 0 0 / 30%);
+}
+
+.dark #site-header .navbar-brand,
+.dark #site-header .nav-link {
+  color: #f3f4f6 !important;
+}
+
+.dark #site-header .nav-link::after {
+  background: #f3f4f6;
+}
+
+.dark #section-resume-biography .text-3xl,
+.dark #publications .prose > h3,
+.dark #publications .prose > ol > li > strong:first-child,
+.dark .page-body:has(#section-resume-biography) section .text-3xl,
+.dark .page-body:has(#section-resume-biography) section h2,
+.dark .page-body:has(#section-resume-biography) section h3,
+.dark .page-body h1,
+.dark .page-body h2,
+.dark .page-body h3 {
+  color: #f3f4f6 !important;
+}
+
+.dark #section-resume-biography .network-icon a,
+.dark #section-resume-biography .bio-text,
+.dark .page-body:has(#section-resume-biography) .prose {
+  color: var(--ap-text) !important;
+}
+
+.dark #publications .publication-award {
+  color: #f6c453;
+}
+
+.dark #section-resume-biography > a.mt-4 {
+  border-color: #465166;
+  background: #1f2937;
+  color: #f3f4f6;
+}
+
+.dark .page-footer {
+  border-color: var(--ap-border);
+  background: #111827 !important;
+  color: var(--ap-muted);
+}
+
+@media (max-width: 1023px) {
+  #site-header .navbar {
+    min-height: 62px;
+    padding: 0 1.25rem;
+  }
+
+  #site-header .navbar-nav {
+    gap: 0;
+    width: 100%;
+    padding: 0.75rem 0 1rem;
+  }
+
+  #site-header .nav-link {
+    display: block;
+    padding: 0.55rem 0;
+  }
+
+  #site-header .nav-link::after {
+    display: none;
+  }
+
+  .page-body:has(#section-resume-biography) {
+    grid-template-columns: 180px minmax(0, 1fr);
+    column-gap: 2.5rem;
+    width: min(calc(100% - 3rem), 900px);
+  }
+
+  #section-resume-biography .avatar-wrapper,
+  #section-resume-biography .avatar {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 17px;
+  }
+
+  .page-body:has(#section-resume-biography) {
+    display: block;
+    width: min(calc(100% - 2.5rem), 680px);
+    padding: 2rem 0 3rem;
+  }
+
+  .page-body:has(#section-resume-biography) > #section-resume-biography {
+    position: static;
+    padding-bottom: 2.5rem !important;
+  }
+
+  #section-resume-biography .resume-biography {
+    align-items: center !important;
+    text-align: center;
+  }
+
+  #section-resume-biography .network-icon {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 330px;
+  }
+
+  #section-resume-biography .network-icon a {
+    justify-content: center;
+  }
+
+  .page-body:not(:has(#section-resume-biography)) {
+    width: min(calc(100% - 2.5rem), 680px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}
