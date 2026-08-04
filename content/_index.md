@@ -124,7 +124,7 @@ sections:
 
         15. **CASTER: A Contiguous-Aware Set Transformer Scheduler for D2C LEO Downlinks PRB Allocation** \
            Weize Kong, **Chaoqun You**\*, Sicheng Liu, Yue Gao, Rahim Tafazolli \
-           *IEEE Global Communications Conference (GlobeCom)*, submitted, 2026
+           *IEEE Global Communications Conference (GlobeCom)*, 2026
         14. **EA-ONS: A Deterministic Time Synchronization Framework for 5G-TSN Integrated LEO Constellations** \
            Siqi Yang, Zonghui Li\*, **Chaoqun You**\*, Yue Gao \
            *IEEE International Conference on Distributed Computing Systems (ICDCS)*, 2026
