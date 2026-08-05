@@ -63,7 +63,7 @@ sections:
            Xingqiu He, **Chaoqun You**, Yuzhi Yang, Zihan Chen, Yuhang Shen, Tony Q. S. Quek, Yue Gao \
            *IEEE Transactions on Networking (TON)*, submitted, 2026
         19. **WA2HO: Weather-Attenuation-Aware Handover Mechanism for Vehicle-to-Satellite Millimeter-Wave Communications** \
-           Yun Huang, **Chaoqun You**\*, Xuming Pei, Xiaoyang Li, Pei Xiao, Tafazolli Rahim, Hongliang Xu, Yue Gao \
+           Yun Huang, **Chaoqun You**\*, Xiaoyu Liu, Tafazolli Rahim, Hongliang Xu, Yue Gao \
            *IEEE Transactions on Mobile Computing (TMC)*, submitted, 2026
         18. **PreHO: Predictive Handover for LEO Satellite Networks** \
            Xingqiu He, Zijie Ying, **Chaoqun You**\*, Yue Gao \
