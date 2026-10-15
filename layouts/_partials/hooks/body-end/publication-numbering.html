@@ -1,0 +1,10 @@
+<script>
+  // Let the browser derive the starting number from the actual paper count.
+  document.querySelectorAll('#publications .prose > h3').forEach((heading) => {
+    if (!['Journal Papers', 'Conference Papers'].includes(heading.textContent.trim())) return;
+    const list = heading.nextElementSibling;
+    if (!list || list.tagName !== 'OL') return;
+    list.reversed = true;
+    list.removeAttribute('start');
+  });
+</script>

@@ -10,6 +10,7 @@ The site presents my biography, research interests, news, publications, professi
 - Edit profile information, links, interests, education, and experience in `data/authors/me.yaml`.
 - Replace the profile photograph at `assets/media/authors/me.jpg`.
 - Add downloadable papers to `static/data/` and link them from `content/_index.md`.
+- Journal and conference lists count down automatically from the number of papers; no CSS counter updates are needed.
 - Edit navigation in `config/_default/menus.yaml` and site metadata in `config/_default/params.yaml`.
 
 ## Preview locally
