@@ -31,6 +31,7 @@ sections:
     content:
       title: 'News'
       text: |-
+        - **Oct 2026** — Our paper *Joint User Association and Resource Allocation for Adaptive Semantic Communication in 5G and Beyond Networks* was accepted to IEEE TMC.
         - **Jul 2026** — Our paper *Efficient Two-timescale User Grouping and Resource Allocation for LEO Satellite Networks With Uneven Traffic* was accepted to IEEE TWC.
         - **May 2026** — Our paper *Statistical QoS Provisioning for Heterogeneous Users in Hybrid RF-FSO Satellite-Aerial-Terrestrial Networks* was accepted to IEEE TCOM.
         - **Apr 2026** — Our paper *EA-ONS: A Deterministic Time Synchronization Framework for 5G-TSN Integrated LEO Constellations* was accepted to IEEE ICDCS 2026.
@@ -70,7 +71,7 @@ sections:
            *IEEE Transactions on Mobile Computing (TMC)*, major revision, 2026
         17. **Joint User Association and Resource Allocation for Adaptive Semantic Communication in 5G and Beyond Networks** \
            Xingqiu He, **Chaoqun You**, Zihan Chen, Yao Sun, Dongzhu Liu, Tony Q. S. Quek, Yue Gao \
-           *IEEE Transactions on Mobile Computing (TMC)*, major revision, 2026
+           *IEEE Transactions on Mobile Computing (TMC)*, 2026
         16. **Video Object Recognition in Mobile Edge Networks: Local Tracking or Edge Detection?** \
            Kun Guo, Yun Shen, Xijun Wang, **Chaoqun You**, Yun Rui, Tony Q. S. Quek \
            *IEEE Transactions on Cognitive Communications and Networking (TCCN)*, major revision, 2025
