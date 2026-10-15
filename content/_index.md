@@ -54,6 +54,9 @@ sections:
 
         ### Journal Papers
 
+        23. **Online Adaptive Computation Reuse in Collaborative Edge Computing: A Two-Timescale Approach** \
+           Xingqiu He, **Chaoqun You**, Peng Wang, Xiaoyu Liu, and Tony Q. S. Quek \
+           *IEEE Transactions on Networking (TON)*, submitted, 2026
         22. **ReTiDet: Residence Time-Based Deterministic Transmission in LEO Satellite Networks** \
            Siqi Yang, Zonghui Li, **Chaoqun You**\*, Yue Gao \
            *IEEE Internet of Things Journal (IoT-J)*, reject and resubmit, 2026
@@ -69,12 +72,12 @@ sections:
         18. **PreHO: Predictive Handover for LEO Satellite Networks** \
            Xingqiu He, Zijie Ying, **Chaoqun You**\*, Yue Gao \
            *IEEE Transactions on Mobile Computing (TMC)*, major revision, 2026
-        17. **Joint User Association and Resource Allocation for Adaptive Semantic Communication in 5G and Beyond Networks** \
-           Xingqiu He, **Chaoqun You**, Zihan Chen, Yao Sun, Dongzhu Liu, Tony Q. S. Quek, Yue Gao \
-           *IEEE Transactions on Mobile Computing (TMC)*, 2026
-        16. **Video Object Recognition in Mobile Edge Networks: Local Tracking or Edge Detection?** \
+        17. **Video Object Recognition in Mobile Edge Networks: Local Tracking or Edge Detection?** \
            Kun Guo, Yun Shen, Xijun Wang, **Chaoqun You**, Yun Rui, Tony Q. S. Quek \
            *IEEE Transactions on Cognitive Communications and Networking (TCCN)*, major revision, 2025
+        16. **Joint User Association and Resource Allocation for Adaptive Semantic Communication in 5G and Beyond Networks** \
+           Xingqiu He, **Chaoqun You**, Zihan Chen, Yao Sun, Dongzhu Liu, Tony Q. S. Quek, Yue Gao \
+           *IEEE Transactions on Mobile Computing (TMC)*, 2026
         15. **Efficient Two-timescale User Grouping and Resource Allocation for LEO Satellite Networks With Uneven Traffic** \
            Xiaoyu Liu, Min Lin, Ruxuan Guan, **Chaoqun You**\*, Yiwen Liu, Tony Q. S. Quek \
            *IEEE Transactions on Wireless Communications (TWC)*, 2026
