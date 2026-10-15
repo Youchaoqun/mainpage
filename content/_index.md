@@ -31,6 +31,7 @@ sections:
     content:
       title: 'News'
       text: |-
+        - **Oct 2026** — Our paper *Joint User Association and Resource Allocation for Adaptive Semantic Communication in 5G and Beyond Networks* was accepted to IEEE TMC.
         - **Jul 2026** — Our paper *Efficient Two-timescale User Grouping and Resource Allocation for LEO Satellite Networks With Uneven Traffic* was accepted to IEEE TWC.
         - **May 2026** — Our paper *Statistical QoS Provisioning for Heterogeneous Users in Hybrid RF-FSO Satellite-Aerial-Terrestrial Networks* was accepted to IEEE TCOM.
         - **Apr 2026** — Our paper *EA-ONS: A Deterministic Time Synchronization Framework for 5G-TSN Integrated LEO Constellations* was accepted to IEEE ICDCS 2026.
@@ -53,6 +54,9 @@ sections:
 
         ### Journal Papers
 
+        23. **Online Adaptive Computation Reuse in Collaborative Edge Computing: A Two-Timescale Approach** \
+           Xingqiu He, **Chaoqun You**, Peng Wang, Xiaoyu Liu, and Tony Q. S. Quek \
+           *IEEE Transactions on Networking (TON)*, submitted, 2026
         22. **ReTiDet: Residence Time-Based Deterministic Transmission in LEO Satellite Networks** \
            Siqi Yang, Zonghui Li, **Chaoqun You**\*, Yue Gao \
            *IEEE Internet of Things Journal (IoT-J)*, reject and resubmit, 2026
@@ -63,17 +67,17 @@ sections:
            Xingqiu He, **Chaoqun You**, Yuzhi Yang, Zihan Chen, Yuhang Shen, Tony Q. S. Quek, Yue Gao \
            *IEEE Transactions on Networking (TON)*, submitted, 2026
         19. **WA2HO: Weather-Attenuation-Aware Handover Mechanism for Vehicle-to-Satellite Millimeter-Wave Communications** \
-           Yun Huang, **Chaoqun You**\*, Xuming Pei, Xiaoyang Li, Pei Xiao, Tafazolli Rahim, Hongliang Xu, Yue Gao \
+           Yun Huang, **Chaoqun You**\*, Xiaoyu Liu, Tafazolli Rahim, Hongliang Xu, Yue Gao \
            *IEEE Transactions on Mobile Computing (TMC)*, submitted, 2026
         18. **PreHO: Predictive Handover for LEO Satellite Networks** \
            Xingqiu He, Zijie Ying, **Chaoqun You**\*, Yue Gao \
            *IEEE Transactions on Mobile Computing (TMC)*, major revision, 2026
-        17. **Joint User Association and Resource Allocation for Adaptive Semantic Communication in 5G and Beyond Networks** \
-           Xingqiu He, **Chaoqun You**, Zihan Chen, Yao Sun, Dongzhu Liu, Tony Q. S. Quek, Yue Gao \
-           *IEEE Transactions on Mobile Computing (TMC)*, major revision, 2026
-        16. **Video Object Recognition in Mobile Edge Networks: Local Tracking or Edge Detection?** \
+        17. **Video Object Recognition in Mobile Edge Networks: Local Tracking or Edge Detection?** \
            Kun Guo, Yun Shen, Xijun Wang, **Chaoqun You**, Yun Rui, Tony Q. S. Quek \
            *IEEE Transactions on Cognitive Communications and Networking (TCCN)*, major revision, 2025
+        16. **Joint User Association and Resource Allocation for Adaptive Semantic Communication in 5G and Beyond Networks** \
+           Xingqiu He, **Chaoqun You**, Zihan Chen, Yao Sun, Dongzhu Liu, Tony Q. S. Quek, Yue Gao \
+           *IEEE Transactions on Mobile Computing (TMC)*, 2026
         15. **Efficient Two-timescale User Grouping and Resource Allocation for LEO Satellite Networks With Uneven Traffic** \
            Xiaoyu Liu, Min Lin, Ruxuan Guan, **Chaoqun You**\*, Yiwen Liu, Tony Q. S. Quek \
            *IEEE Transactions on Wireless Communications (TWC)*, 2026
