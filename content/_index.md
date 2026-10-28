@@ -22,7 +22,7 @@ sections:
       text: |-
         I am currently an Assistant Professor at [Fudan University](https://www.fudan.edu.cn/). Before that, I was a Research Fellow at the [Singapore University of Technology and Design](https://www.sutd.edu.sg/) (SUTD), where I collaborated with Prof. [Tony Q. S. Quek](https://people.sutd.edu.sg/~tonyquek/). I obtained my Ph.D. in Communication and Computer Science from the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) (UESTC) under the guidance of Prof. [Lemin Li](https://zh.wikipedia.org/zh-sg/%E6%9D%8E%E4%B9%90%E6%B0%91). Prior to this, I completed my B.S. in Communication Engineering at UESTC. During my doctoral studies, I also spent two years as a visiting Ph.D. student at the [University of Toronto](https://www.utoronto.ca/).
 
-        My current research focuses on networking for LLMs, LLMs for networking, LLM multi-agent systems, edge intelligence, and NFV/SDN. More broadly, my research spans topics at the intersection of AI and networking.
+        My current research focuses on networking for WMs/LLMs, WMs/LLMs for networking, Agentic AI systems, edge intelligence, and NFV/SDN. More broadly, my research spans topics at the intersection of AI and networking.
     design:
       columns: '1'
 
