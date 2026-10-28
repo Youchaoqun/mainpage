@@ -59,15 +59,15 @@ sections:
            *IEEE Transactions on Networking (TON)*, submitted, 2026
         22. **ReTiDet: Residence Time-Based Deterministic Transmission in LEO Satellite Networks** \
            Siqi Yang, Zonghui Li, **Chaoqun You**\*, Yue Gao \
-           *IEEE Internet of Things Journal (IoT-J)*, reject and resubmit, 2026
+           *IEEE Internet of Things Journal (IoT-J)*, major revision, 2026
         21. **CRT: Collision-Tolerant Residence Time for Deterministic Transmission in LEO Satellite Networks** \
            Siqi Yang, Zonghui Li, **Chaoqun You**\*, Yue Gao \
            *IEEE Transactions on Mobile Computing (TMC)*, submitted, 2026
         20. **Energy-Efficient Online Scheduling for Wireless Powered Mobile Edge Computing Networks** \
            Xingqiu He, **Chaoqun You**, Yuzhi Yang, Zihan Chen, Yuhang Shen, Tony Q. S. Quek, Yue Gao \
-           *IEEE Transactions on Networking (TON)*, submitted, 2026
+           *IEEE Transactions on Cognitive Communications and Networking (TCCN)*, submitted, 2026
         19. **WA2HO: Weather-Attenuation-Aware Handover Mechanism for Vehicle-to-Satellite Millimeter-Wave Communications** \
-           Yun Huang, **Chaoqun You**\*, Xiaoyu Liu, Tafazolli Rahim, Hongliang Xu, Yue Gao \
+           Yun Huang, **Chaoqun You**\*, Xiaoyu Liu, Hongliang Xu, Jinxiang Chen, Yue Gao, Tafazolli Rahim \
            *IEEE Transactions on Mobile Computing (TMC)*, submitted, 2026
         18. **PreHO: Predictive Handover for LEO Satellite Networks** \
            Xingqiu He, Zijie Ying, **Chaoqun You**\*, Yue Gao \
